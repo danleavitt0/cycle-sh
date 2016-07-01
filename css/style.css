@@ -412,3 +412,14 @@ body > pre { display: none }
   margin: 0;
   margin-left: 10px;
 }
+
+#function-search {
+  position: absolute;
+  display: none;
+  top: 64px;
+  margin: 0 auto;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
