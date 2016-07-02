@@ -1,6 +1,6 @@
 * {
   outline: none;
-}
+ }
 
 body {
   font: 300 14px "Helvetica Neue", Helvetica, Arial;
@@ -419,12 +419,26 @@ body > pre { display: none }
   top: 64px;
   margin: 0 auto;
   z-index: 999;
-  left: calc(50% - 110px);
+  left: calc(50% - 120px);
   text-align: center;
   padding: 10px;
   border: 2px solid #dce4ec;
   background: #f5f5f5;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+#function-search .results-wrapper {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-y: auto;
+  max-height: 60vh;
+  box-sizing: border-box;
+}
+
+#function-search .results-wrapper::-webkit-scrollbar {
+  display: none;
 }
 
 #function-search .results .list-group-item {
