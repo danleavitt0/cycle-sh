@@ -121,7 +121,9 @@
       <div id="console"></div>
     </div>
 
-<script id="bundle-template" type="text/template">function main (input) {
+<script id="bundle-template" type="text/template">require('cycle-shell')(main)
+
+function main (input) {
   return input
 }
 </script>

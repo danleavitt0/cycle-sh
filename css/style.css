@@ -419,7 +419,7 @@ body > pre { display: none }
   top: 64px;
   margin: 0 auto;
   z-index: 999;
-  left: calc(50% - 120px);
+  left: calc(25% - 120px);
   text-align: center;
   padding: 10px;
   border: 2px solid #dce4ec;
