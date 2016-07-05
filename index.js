@@ -240,6 +240,7 @@ function initialize () {
 
     load: function () {
       if (loggedIn) {
+        $('#save').hide()
         $('#load-dialog').modal()
         var Modal = new ModalBody(modalBody)
         Modal.clear()
